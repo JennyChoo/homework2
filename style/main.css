@@ -1,0 +1,158 @@
+body {
+	background-color: black;
+	border:10px solid black;
+	color:black;
+	max-width: 800px;
+	margin: 2rem auto;
+	vertical-align: middle;
+}
+
+
+.menu{
+	color:white;
+	text-align: right;
+}
+
+.menu-item{
+	font-size:20px;
+	padding-right:10px;
+	font-style: Sans-Serif;
+}
+
+.bold{
+	font-weight: bold;
+	font-size:115%;
+}
+
+.title{
+	text-align: left;
+	color:yellow;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+.subtitle{
+	text-align: center;
+	color:black;
+	background-color: #D3D3D3;
+	border-top: 2px solid yellow;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size:30px;
+	font-style: Courier;
+}
+
+
+.image-wrapper{
+	position: relative;
+	width:100%;
+}
+
+.content-img{
+	max-width: 800px;
+	display: block;
+}
+
+.box-on-image{
+	position: absolute;
+
+	top: 20%;
+	right:5%;
+	width:200px;
+	background:white;
+	border:3px solid grey;
+	font-color:black;
+	margin-right:30px;
+	padding:10px;
+	opacity: 0.8;
+}
+
+
+.button{
+	padding:6px;
+	background-color: yellow;
+	font-weight: 150;
+	text-align: center;	
+	opacity:1.0;
+	border-radius: 10px;
+	box-shadow: 2px 2px #555539;
+}
+
+.taste{
+	color:grey;
+	text-decoration: line-through;
+}
+
+.are{
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.menu{
+	margin-top:20px; 
+	margin-bottom:20px;
+	text-align: right;
+}
+
+.top{
+	margin-bottom:20px;
+}
+
+.grid {
+	border: 1px solid;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.col {
+	margin-top:10px;
+	margin-bottom: 10px;
+	box-sizing:border-box;
+	background-color: white;
+	flex:0 0 33.33%;
+	border-right:2px solid grey;
+}
+
+.grid-h2{
+	padding-left:8px;
+}
+
+.grid-p{
+	padding-left:8px;
+}
+
+.col-last{
+	border-right:0px;
+}
+
+.grid-button{
+	font-size: 14px;
+	text-align: center;
+	background: grey;
+	padding:5px;
+	margin-right: 20px;
+	margin-left:20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px #555539;
+	font-style: Sans-Serif;
+	font-weight: 140%
+}
+
+.row {
+	border: 1px solid blue;
+	/*flex-basis: 8.3333%;*/
+	flex: 0 0 100%;
+	box-sizing:border-box;
+	/*--base-width: 8.333%;
+	flex: 0 0 var(--base-width);*/
+	height:50%;
+}
+
+.footer{
+	background-color: black;
+	color:white;
+	padding-left: 10px;
+}
+
